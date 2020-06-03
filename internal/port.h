@@ -12,7 +12,7 @@ namespace expr {
 namespace internal {
 
 // Back port some helpers.
-// Defined in std as of c++14.
+// Defined in std as of c++17.
 template <typename T>
 using decay_t = typename std::decay<T>::type;
 template <bool B, typename T = void>
